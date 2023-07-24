@@ -1,6 +1,7 @@
-import React from 'react';
-import './App.css';
-import { Default, Checked, Disabled } from './Checkbox.stories';
+import React from "react";
+import "./App.css";
+import { Default, Checked, Disabled } from "./stories/Checkbox.stories";
+import { DefaultModal } from "./stories/Modal.stories";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Default />
       <Checked />
       <Disabled />
+      <DefaultModal />
     </div>
   );
 }
