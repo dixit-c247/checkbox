@@ -1,0 +1,71 @@
+/* Modal.module.css */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 80%;
+}
+
+.modalTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modalCloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+  background: none;
+  border: none;
+}
+
+.modalCloseButton:hover {
+  color: #333;
+}
+
+.modalDescription {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalActionButton {
+  padding: 8px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modalActionButton:last-child {
+  margin-left: 0;
+}
+
+.modalActionButton:hover {
+  background-color: #0056b3;
+}

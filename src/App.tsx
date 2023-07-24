@@ -1,17 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Default, Checked, Disabled } from "./stories/Checkbox.stories";
-import { DefaultModal } from "./stories/Modal.stories";
+import "./Modal.stories";
+import "./ToggleButton.stories";
+import "./Checkbox.stories";
 
 function App() {
-  return (
-    <div className="App">
-      <Default />
-      <Checked />
-      <Disabled />
-      <DefaultModal />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
